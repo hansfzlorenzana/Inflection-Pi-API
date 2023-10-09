@@ -4,7 +4,7 @@ from pathlib import Path
 base_path = Path(__file__).parent
 long_description = (base_path / "README.md").read_text(encoding='utf-8')
 
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 DESCRIPTION = 'A reverse engineered API for Inflection AI Personal Intelligence, called PI'
 LONG_DESCRIPTION = 'A reverse engineered API for Inflection AI Personal Intelligence, called PI'
 
