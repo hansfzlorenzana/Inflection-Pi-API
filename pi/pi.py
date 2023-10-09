@@ -1,7 +1,7 @@
 import json
 from curl_cffi import requests
 import re
-from proxies import fetch_proxy
+from .proxies import fetch_proxy
 from time import sleep
 from httpx import Client
 
