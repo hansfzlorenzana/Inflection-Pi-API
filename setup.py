@@ -11,7 +11,7 @@ LONG_DESCRIPTION = 'A reverse engineered API for Inflection AI Personal Intellig
 setup(
     name="inflection-pi-api",
     version=VERSION,
-    author="hansfzlorenzana",
+    author="Hans FZ Lorenzana",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=long_description,
@@ -24,8 +24,11 @@ setup(
     keywords=['python', 'pi-api', 'inflection', 'chatgpt', 'pi', 'ai', 'api', 'chatbot'],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "Intended Audience :: Developers",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent"
     ],
-    url="https://github.com/hansfzlorenzana/Inflection-Pi-API"
+    url="https://github.com/hansfzlorenzana/Inflection-Pi-API",
+    project_urls={"Bug Report": "https://github.com/hansfzlorenzana/Inflection-Pi-API/issues/new"}
 )
