@@ -152,3 +152,4 @@ cython_debug/
 #.idea/
 
 # Added files to ignore
+test.py
